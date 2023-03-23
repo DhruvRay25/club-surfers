@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -15,10 +16,10 @@ export default function Home() {
           <div class="container-fluid">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="/">Home</a>
+                <Link class="nav-link" href="/">Home</Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/about">About</a>
+                <Link class="nav-link" href="/about">About</Link>
               </li>
             </ul>
           </div>
