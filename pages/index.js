@@ -10,15 +10,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <nav class="navbar navbar-expand-sm bg-dark">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
 
           <div class="container-fluid">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link text-light" href="/">Home</a>
+                <a class="nav-link" href="/">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="/about">About</a>
+                <a class="nav-link" href="/about">About</a>
               </li>
             </ul>
           </div>
