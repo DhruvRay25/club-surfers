@@ -15,10 +15,10 @@ export default function Home() {
           <div class="container-fluid">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="/">Home</a>
+                <a class="nav-link" href="/club-surfers">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/about">About</a>
+                <a class="nav-link" href="/club-surfers/about">About</a>
               </li>
             </ul>
           </div>

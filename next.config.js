@@ -1,10 +1,6 @@
-// next.config.js
-
-const repo = 'club-surfers'
-const assetPrefix = `/${repo}/`
-const basePath = `/${repo}`
-
-module.exports = {
-  assetPrefix: assetPrefix,
-  basePath: basePath,
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
 }
+
+module.exports = nextConfig
