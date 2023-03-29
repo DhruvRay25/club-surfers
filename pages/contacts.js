@@ -15,7 +15,7 @@ export default function Home() {
         <Navigation />
 
         <div class="container-fluid p-5 bg-dark text-white text-center">
-          <h1>About Us</h1>
+          <h1>Contacts</h1>
         </div>
 
         <div class="container mt-5">
